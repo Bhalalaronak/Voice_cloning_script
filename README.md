@@ -80,8 +80,10 @@ If there is an issue during the conversion, a descriptive error will appear.
 
 ## Downloading the Audio Locally (Google Colab)
 If you're using Google Colab, the audio file will automatically be available for download after processing. You can download it using the files.download() method provided in Colab:
-from google.colab import files
-files.download("output.wav")
+
+- from google.colab import files
+- files.download("output.wav")
+
 If you're running the script locally (in Jupyter Notebook or a local Python environment), the output.wav file will be saved in the same directory where the script is located.
 
 
