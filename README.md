@@ -1,9 +1,9 @@
 # Voice_cloning_script
 Estudely Voice cloning script submission
-YouTube Audio Downloader and Converter
+## YouTube Audio Downloader and Converter
 This script allows you to download the audio from a YouTube video and convert it into a 16kHz mono WAV file. It handles invalid or incorrect URLs and provides an easy way to download the audio locally (especially useful for Google Colab and Jupyter Notebooks).
 
-Features
+## Features
 Downloads audio from any YouTube video via yt-dlp
 
 Converts the audio to a 16kHz mono WAV file using ffmpeg
@@ -12,44 +12,30 @@ Handles invalid URLs and errors gracefully
 
 Supports downloading the file locally or via Google Colab
 
-Requirements
+## Requirements
 Python 3.x
 
 yt-dlp for downloading YouTube videos
 
 ffmpeg for audio conversion
 
-Install Dependencies
+## Install Dependencies
 You can install the required dependencies using pip:
-
-bash
-Copy
-Edit
 pip install yt-dlp
 On Linux or macOS, install ffmpeg using:
 
-bash
-Copy
-Edit
-sudo apt-get install ffmpeg
+
+### sudo apt-get install ffmpeg
 For Windows, download and install ffmpeg from the official website: FFmpeg Downloads
 
-How to Use
-1. Clone this repository:
-bash
-Copy
-Edit
-git clone https://github.com/yourusername/youtube-audio-downloader.git
+## How to Use
+### 1. Clone this repository:
+
+git clone https://github.com/
 cd youtube-audio-downloader
 2. Run the script:
-bash
-Copy
-Edit
 python youtube_to_audio.py
 3. Provide the YouTube video URL when prompted:
-bash
-Copy
-Edit
 Enter YouTube video URL: https://www.youtube.com/watch?v=YOUR_VIDEO_ID
 The script will:
 
@@ -59,7 +45,8 @@ Convert it to a 16kHz mono WAV file.
 
 Save it as output.wav in the current working directory.
 
-Error Handling
+
+### Error Handling
 If an invalid YouTube URL is entered, an error message will be shown.
 
 If there is an issue during the conversion, a descriptive error will appear.
