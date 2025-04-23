@@ -30,20 +30,19 @@ For Windows, download and install ffmpeg from the official website: FFmpeg Downl
 
 ## How to Use
 ### 1. Clone this repository:
-
-git clone https://github.com/
-cd youtube-audio-downloader
-2. Run the script:
+git clone https://github.com/Bhalalaronak/Voice_cloning_script.git
+cd Voice_cloning_script
+### 2. Run the script:
 python youtube_to_audio.py
-3. Provide the YouTube video URL when prompted:
+### 3. Provide the YouTube video URL when prompted:
 Enter YouTube video URL: https://www.youtube.com/watch?v=YOUR_VIDEO_ID
-The script will:
+   . The script will:
 
-Download the audio.
+   . Download the audio.
 
-Convert it to a 16kHz mono WAV file.
+   . Convert it to a 16kHz mono WAV file.
 
-Save it as output.wav in the current working directory.
+  . Save it as output.wav in the current working directory.
 
 
 ### Error Handling
